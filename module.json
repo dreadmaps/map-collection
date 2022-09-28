@@ -1,32 +1,47 @@
 {
-    "name": "dreadmaps",
-    "title": "DreadMaps Premium Map Collection",
-    "description": "A collection of my Foundry enabled content.",
-    "version": "1.0.13",
-    "author": "DreadMaps",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
-    "packs": [
-        {
-            "name": "maps",
-            "label": "DreadMaps Map Collection",
-            "path": "./packs/dreadmaps.db",
-            "entity": "Scene"
-        },
-        {
-            "label": "DreadMaps Audio Collection",
-            "name": "dreadmaps-audio-collection",
-            "path": "packs/dreadmaps-audio-collection.db",
-            "entity": "Playlist"
-          }
-    ],
-    "dependencies": [
+	"id": "dreadmaps",
+	"title": "DreadMaps Premium Map Collection",
+	"description": "A collection of my Foundry enabled content.",
+	"version": "2.0.1",
+	"authors": [
 		{
-			"name": "compendium-folders",
-			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json"
+			"name": "DreadMaps",
+			"url": "https://patreon.com/DreadMaps",
+			"email": "dreadmaps@protonmail.com",
+			"discord": "DreadMaps#8058"    
 		}
-    ],
-	"url": "https://www.patreon.com/dreadmaps",
-    "manifest": "https://raw.githubusercontent.com/dreadmaps/map-collection/master/module.json",
-    "download": "https://www.dropbox.com/s/98xuihgzvqa0c2f/dreadmaps.zip?dl=1"
-  }
+	],  
+	"compatibility": {
+		"minimum": 10,
+		"verified": "10"
+	},
+	"relationships": {
+		"requires": [
+		  {
+			"id": "compendium-folders",
+			"type": "module",
+			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+			"compatibility": {}
+		  }
+		]
+	  },
+	"packs": [
+    {
+		  "name": "maps",
+		  "label": "DreadMaps Map Collection",
+		  "path": "/packs/dreadmaps.db",
+		  "type": "Scene",
+		  "private": false
+    },
+    {
+      "label": "DreadMaps Audio Collection",
+      "name": "dreadmaps-audio-collection",
+      "path": "packs/dreadmaps-audio-collection.db",
+      "type": "Playlist",
+      "private": false
+    }
+  ],
+  "url": "https://www.patreon.com/dreadmaps",
+  "manifest": "https://raw.githubusercontent.com/dreadmaps/map-collection/10x/module.json",
+  "download": "https://www.dropbox.com/s/xzp59smypikjbf4/dreadmaps_10x.zip?dl=1"
+}
