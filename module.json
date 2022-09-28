@@ -1,37 +1,37 @@
 {
-	"id": "dreadmaps",
-	"title": "DreadMaps Premium Map Collection",
-	"description": "A collection of my Foundry enabled content.",
-	"version": "2.0.1",
-	"authors": [
-		{
-			"name": "DreadMaps",
-			"url": "https://patreon.com/DreadMaps",
-			"email": "dreadmaps@protonmail.com",
-			"discord": "DreadMaps#8058"    
-		}
-	],  
-	"compatibility": {
-		"minimum": 10,
-		"verified": "10"
-	},
-	"relationships": {
-		"requires": [
-		  {
-			"id": "compendium-folders",
-			"type": "module",
-			"manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
-			"compatibility": {}
-		  }
-		]
-	  },
-	"packs": [
+  "id": "dreadmaps",
+  "title": "🌑 DreadMaps Premium Map Collection",
+  "description": "A collection of my Foundry enabled content",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10.120
+  },
+  "authors": [
     {
-		  "name": "maps",
-		  "label": "DreadMaps Map Collection",
-		  "path": "/packs/dreadmaps.db",
-		  "type": "Scene",
-		  "private": false
+      "name": "DreadMaps",
+      "url": "https://patreon.com/DreadMaps",
+      "email": "dreadmaps@protonmail.com",
+      "discord": "DreadMaps#8058"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "maps",
+      "label": "DreadMaps Map Collection",
+      "path": "/packs/dreadmaps.db",
+      "type": "Scene",
+      "private": false
     },
     {
       "label": "DreadMaps Audio Collection",
@@ -39,6 +39,13 @@
       "path": "packs/dreadmaps-audio-collection.db",
       "type": "Playlist",
       "private": false
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
     }
   ],
   "url": "https://www.patreon.com/dreadmaps",
