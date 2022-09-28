@@ -5,7 +5,7 @@
   "version": "2.0.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10.120
+    "verified": "10.283"
   },
   "authors": [
     {
@@ -27,11 +27,11 @@
   },
   "packs": [
     {
-      "name": "maps",
-      "label": "DreadMaps Map Collection",
-      "path": "/packs/dreadmaps.db",
-      "type": "Scene",
-      "private": false
+	    "name": "maps",
+	    "label": "DreadMaps Map Collection",
+	    "path": "/packs/dreadmaps.db",
+	    "type": "Scene",
+	    "private": false
     },
     {
       "label": "DreadMaps Audio Collection",
