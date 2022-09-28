@@ -15,18 +15,18 @@
       "discord": "Dread Maps#8058"
     }
   ],
- "relationships": {
+  "relationships": {
     "requires": [
       {
         "id": "compendium-folders",
         "type": "module",
         "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json"
       },
-      {
-	"id": "stairways",
-	"type": "module",
-	"manifest": "https://gitlab.com/SWW13/foundryvtt-stairways/-/raw/development/module.json"
-      }
+	  {
+		  "id": "stairways",
+		  "type": "module",
+		  "manifest": "https://gitlab.com/SWW13/foundryvtt-stairways/-/raw/development/module.json"
+	  }
     ]
   },
   "packs": [
