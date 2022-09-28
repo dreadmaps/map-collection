@@ -29,7 +29,7 @@
     {
 	    "name": "maps",
 	    "label": "DreadMaps Map Collection",
-	    "path": "/packs/dreadmaps.db",
+	    "path": "./packs/dreadmaps.db",
 	    "type": "Scene",
 	    "private": false
     },
