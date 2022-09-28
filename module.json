@@ -27,11 +27,11 @@
   },
   "packs": [
     {
-	    "name": "maps",
-	    "label": "DreadMaps Map Collection",
-	    "path": "./packs/dreadmaps.db",
-	    "type": "Scene",
-	    "private": false
+	  "name": "maps",
+	  "label": "DreadMaps Map Collection",
+	  "path": "packs/dreadmaps.db",
+	  "type": "Scene",
+	  "private": false
     },
     {
       "label": "DreadMaps Audio Collection",
@@ -50,5 +50,5 @@
   ],
   "url": "https://www.patreon.com/dreadmaps",
   "manifest": "https://raw.githubusercontent.com/dreadmaps/map-collection/10x/module.json",
-  "download": "https://www.dropbox.com/s/xzp59smypikjbf4/dreadmaps_10x.zip?dl=1"
+  "download": "https://www.dropbox.com/s/6524vf0ndz1roy2/dreadmaps_10x.zip?dl=1"
 }
