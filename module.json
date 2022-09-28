@@ -5,14 +5,14 @@
   "version": "2.0.0",
   "compatibility": {
     "minimum": 10,
-    "verified": "10.283"
+    "verified": "10.286"
   },
   "authors": [
     {
       "name": "DreadMaps",
       "url": "https://patreon.com/DreadMaps",
       "email": "dreadmaps@protonmail.com",
-      "discord": "DreadMaps#8058"
+      "discord": "Dread Maps#8058"
     }
   ],
   "relationships": {
@@ -20,8 +20,7 @@
       {
         "id": "compendium-folders",
         "type": "module",
-        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
-        "compatibility": {}
+        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json"
       }
     ]
   },
