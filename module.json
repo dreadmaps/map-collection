@@ -2,10 +2,9 @@
   "id": "dreadmaps",
   "title": "🌑 DreadMaps Premium Map Collection",
   "description": "A collection of my Foundry enabled content",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "compatibility": {
-    "minimum": 10,
-    "verified": "10.286"
+    "minimum": 10
   },
   "authors": [
     {
@@ -47,5 +46,5 @@
   ],
   "url": "https://www.patreon.com/dreadmaps",
   "manifest": "https://raw.githubusercontent.com/dreadmaps/map-collection/10x/module.json",
-  "download": "https://www.dropbox.com/s/6524vf0ndz1roy2/dreadmaps_10x.zip?dl=1"
+  "download": "https://www.dropbox.com/s/z4xdd5cu5c9iemm/dreadmaps_v10_10-14-2022.zip?dl=1"
 }
